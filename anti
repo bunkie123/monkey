@@ -1,17 +1,4 @@
-local userkey = "https://raw.githubusercontent.com/bunkie123/NIDanti/main/antilock"
-local blacklist = "https://raw.githubusercontent.com/bunkie123/NIDanti/main/lua"
-local key =  game:HttpGet(userkey, true)
-local banned = game:HttpGet(blacklist, true)
-plr  = game.Players.LocalPlayer
---- find database 
-if string.find(key,_G.Key) then
---- script 
-print("whitelisted!")
-else
-plr:Kick("you are not whitelisted please dm Lua.#0001 for help")
-end
 
- ---- script 
 
 getgenv().tog = false
 getgenv().key = "c"
